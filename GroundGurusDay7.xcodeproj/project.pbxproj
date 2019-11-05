@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B909EACB237119DD00135E84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B909EACA237119DD00135E84 /* AppDelegate.m */; };
+		B909EAD1237119DD00135E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B909EACF237119DD00135E84 /* Main.storyboard */; };
+		B909EAD3237119DD00135E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B909EAD2237119DD00135E84 /* Assets.xcassets */; };
+		B909EAD6237119DD00135E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B909EAD4237119DD00135E84 /* LaunchScreen.storyboard */; };
+		B909EAD9237119DD00135E84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B909EAD8237119DD00135E84 /* main.m */; };
+		B909EAE3237119DE00135E84 /* GroundGurusDay7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B909EAE2237119DE00135E84 /* GroundGurusDay7Tests.m */; };
+		B909EAEE237119DE00135E84 /* GroundGurusDay7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B909EAED237119DE00135E84 /* GroundGurusDay7UITests.m */; };
+		B909EAFD23711FBD00135E84 /* MyAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B909EAFC23711FBD00135E84 /* MyAlbumViewController.m */; };
+		B909EB002371204F00135E84 /* TileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B909EAFF2371204F00135E84 /* TileCollectionViewCell.xib */; };
+		B909EB03237120BD00135E84 /* TileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B909EB02237120BD00135E84 /* TileCollectionViewCell.m */; };
+		B909EB062371483E00135E84 /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B909EB052371483E00135E84 /* GestureViewController.m */; };
+		B90CF45823714C7400029B15 /* NestedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF45723714C7400029B15 /* NestedTableViewCell.m */; };
+		B90CF45A23714C8200029B15 /* NestedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90CF45923714C8200029B15 /* NestedTableViewCell.xib */; };
+		B90CF463237151CD00029B15 /* NestedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90CF462237151CD00029B15 /* NestedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B909EADF237119DE00135E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B909EABE237119DD00135E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B909EAC5237119DD00135E84;
+			remoteInfo = GroundGurusDay7;
+		};
+		B909EAEA237119DE00135E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B909EABE237119DD00135E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B909EAC5237119DD00135E84;
+			remoteInfo = GroundGurusDay7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B909EAC6237119DD00135E84 /* GroundGurusDay7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroundGurusDay7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B909EAC9237119DD00135E84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B909EACA237119DD00135E84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B909EAD0237119DD00135E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B909EAD2237119DD00135E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B909EAD5237119DD00135E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B909EAD7237119DD00135E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B909EAD8237119DD00135E84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B909EADE237119DE00135E84 /* GroundGurusDay7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundGurusDay7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B909EAE2237119DE00135E84 /* GroundGurusDay7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroundGurusDay7Tests.m; sourceTree = "<group>"; };
+		B909EAE4237119DE00135E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B909EAE9237119DE00135E84 /* GroundGurusDay7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundGurusDay7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B909EAED237119DE00135E84 /* GroundGurusDay7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroundGurusDay7UITests.m; sourceTree = "<group>"; };
+		B909EAEF237119DE00135E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B909EAFB23711FBD00135E84 /* MyAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlbumViewController.h; sourceTree = "<group>"; };
+		B909EAFC23711FBD00135E84 /* MyAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlbumViewController.m; sourceTree = "<group>"; };
+		B909EAFF2371204F00135E84 /* TileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TileCollectionViewCell.xib; sourceTree = "<group>"; };
+		B909EB01237120BD00135E84 /* TileCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileCollectionViewCell.h; sourceTree = "<group>"; };
+		B909EB02237120BD00135E84 /* TileCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileCollectionViewCell.m; sourceTree = "<group>"; };
+		B909EB042371483E00135E84 /* GestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		B909EB052371483E00135E84 /* GestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		B90CF45223714C5200029B15 /* NestedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedViewController.h; sourceTree = "<group>"; };
+		B90CF45623714C7400029B15 /* NestedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestedTableViewCell.h; sourceTree = "<group>"; };
+		B90CF45723714C7400029B15 /* NestedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedTableViewCell.m; sourceTree = "<group>"; };
+		B90CF45923714C8200029B15 /* NestedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NestedTableViewCell.xib; sourceTree = "<group>"; };
+		B90CF462237151CD00029B15 /* NestedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B909EAC3237119DD00135E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B909EADB237119DE00135E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B909EAE6237119DE00135E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B909EABD237119DD00135E84 = {
+			isa = PBXGroup;
+			children = (
+				B909EAC8237119DD00135E84 /* GroundGurusDay7 */,
+				B909EAE1237119DE00135E84 /* GroundGurusDay7Tests */,
+				B909EAEC237119DE00135E84 /* GroundGurusDay7UITests */,
+				B909EAC7237119DD00135E84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B909EAC7237119DD00135E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B909EAC6237119DD00135E84 /* GroundGurusDay7.app */,
+				B909EADE237119DE00135E84 /* GroundGurusDay7Tests.xctest */,
+				B909EAE9237119DE00135E84 /* GroundGurusDay7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B909EAC8237119DD00135E84 /* GroundGurusDay7 */ = {
+			isa = PBXGroup;
+			children = (
+				B909EAC9237119DD00135E84 /* AppDelegate.h */,
+				B909EACA237119DD00135E84 /* AppDelegate.m */,
+				B909EAFE2371203C00135E84 /* Cell */,
+				B90CF45123714C3B00029B15 /* Nested */,
+				B909EACF237119DD00135E84 /* Main.storyboard */,
+				B909EAFB23711FBD00135E84 /* MyAlbumViewController.h */,
+				B909EAFC23711FBD00135E84 /* MyAlbumViewController.m */,
+				B909EAD2237119DD00135E84 /* Assets.xcassets */,
+				B909EAD4237119DD00135E84 /* LaunchScreen.storyboard */,
+				B909EAD7237119DD00135E84 /* Info.plist */,
+				B909EAD8237119DD00135E84 /* main.m */,
+				B909EB042371483E00135E84 /* GestureViewController.h */,
+				B909EB052371483E00135E84 /* GestureViewController.m */,
+			);
+			path = GroundGurusDay7;
+			sourceTree = "<group>";
+		};
+		B909EAE1237119DE00135E84 /* GroundGurusDay7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B909EAE2237119DE00135E84 /* GroundGurusDay7Tests.m */,
+				B909EAE4237119DE00135E84 /* Info.plist */,
+			);
+			path = GroundGurusDay7Tests;
+			sourceTree = "<group>";
+		};
+		B909EAEC237119DE00135E84 /* GroundGurusDay7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B909EAED237119DE00135E84 /* GroundGurusDay7UITests.m */,
+				B909EAEF237119DE00135E84 /* Info.plist */,
+			);
+			path = GroundGurusDay7UITests;
+			sourceTree = "<group>";
+		};
+		B909EAFE2371203C00135E84 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B909EAFF2371204F00135E84 /* TileCollectionViewCell.xib */,
+				B909EB01237120BD00135E84 /* TileCollectionViewCell.h */,
+				B909EB02237120BD00135E84 /* TileCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B90CF45123714C3B00029B15 /* Nested */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF45523714C5B00029B15 /* Cells */,
+				B90CF45223714C5200029B15 /* NestedViewController.h */,
+				B90CF462237151CD00029B15 /* NestedViewController.m */,
+			);
+			path = Nested;
+			sourceTree = "<group>";
+		};
+		B90CF45523714C5B00029B15 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF45B23714CF700029B15 /* Table */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B90CF45B23714CF700029B15 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				B90CF45623714C7400029B15 /* NestedTableViewCell.h */,
+				B90CF45723714C7400029B15 /* NestedTableViewCell.m */,
+				B90CF45923714C8200029B15 /* NestedTableViewCell.xib */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B909EAC5237119DD00135E84 /* GroundGurusDay7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B909EAF2237119DE00135E84 /* Build configuration list for PBXNativeTarget "GroundGurusDay7" */;
+			buildPhases = (
+				B909EAC2237119DD00135E84 /* Sources */,
+				B909EAC3237119DD00135E84 /* Frameworks */,
+				B909EAC4237119DD00135E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroundGurusDay7;
+			productName = GroundGurusDay7;
+			productReference = B909EAC6237119DD00135E84 /* GroundGurusDay7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B909EADD237119DE00135E84 /* GroundGurusDay7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B909EAF5237119DE00135E84 /* Build configuration list for PBXNativeTarget "GroundGurusDay7Tests" */;
+			buildPhases = (
+				B909EADA237119DE00135E84 /* Sources */,
+				B909EADB237119DE00135E84 /* Frameworks */,
+				B909EADC237119DE00135E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B909EAE0237119DE00135E84 /* PBXTargetDependency */,
+			);
+			name = GroundGurusDay7Tests;
+			productName = GroundGurusDay7Tests;
+			productReference = B909EADE237119DE00135E84 /* GroundGurusDay7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B909EAE8237119DE00135E84 /* GroundGurusDay7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B909EAF8237119DE00135E84 /* Build configuration list for PBXNativeTarget "GroundGurusDay7UITests" */;
+			buildPhases = (
+				B909EAE5237119DE00135E84 /* Sources */,
+				B909EAE6237119DE00135E84 /* Frameworks */,
+				B909EAE7237119DE00135E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B909EAEB237119DE00135E84 /* PBXTargetDependency */,
+			);
+			name = GroundGurusDay7UITests;
+			productName = GroundGurusDay7UITests;
+			productReference = B909EAE9237119DE00135E84 /* GroundGurusDay7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B909EABE237119DD00135E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Earth Maniebo";
+				TargetAttributes = {
+					B909EAC5237119DD00135E84 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B909EADD237119DE00135E84 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B909EAC5237119DD00135E84;
+					};
+					B909EAE8237119DE00135E84 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B909EAC5237119DD00135E84;
+					};
+				};
+			};
+			buildConfigurationList = B909EAC1237119DD00135E84 /* Build configuration list for PBXProject "GroundGurusDay7" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B909EABD237119DD00135E84;
+			productRefGroup = B909EAC7237119DD00135E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B909EAC5237119DD00135E84 /* GroundGurusDay7 */,
+				B909EADD237119DE00135E84 /* GroundGurusDay7Tests */,
+				B909EAE8237119DE00135E84 /* GroundGurusDay7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B909EAC4237119DD00135E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CF45A23714C8200029B15 /* NestedTableViewCell.xib in Resources */,
+				B909EB002371204F00135E84 /* TileCollectionViewCell.xib in Resources */,
+				B909EAD6237119DD00135E84 /* LaunchScreen.storyboard in Resources */,
+				B909EAD3237119DD00135E84 /* Assets.xcassets in Resources */,
+				B909EAD1237119DD00135E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B909EADC237119DE00135E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B909EAE7237119DE00135E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B909EAC2237119DD00135E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90CF463237151CD00029B15 /* NestedViewController.m in Sources */,
+				B909EB03237120BD00135E84 /* TileCollectionViewCell.m in Sources */,
+				B90CF45823714C7400029B15 /* NestedTableViewCell.m in Sources */,
+				B909EAD9237119DD00135E84 /* main.m in Sources */,
+				B909EAFD23711FBD00135E84 /* MyAlbumViewController.m in Sources */,
+				B909EACB237119DD00135E84 /* AppDelegate.m in Sources */,
+				B909EB062371483E00135E84 /* GestureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B909EADA237119DE00135E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B909EAE3237119DE00135E84 /* GroundGurusDay7Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B909EAE5237119DE00135E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B909EAEE237119DE00135E84 /* GroundGurusDay7UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B909EAE0237119DE00135E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B909EAC5237119DD00135E84 /* GroundGurusDay7 */;
+			targetProxy = B909EADF237119DE00135E84 /* PBXContainerItemProxy */;
+		};
+		B909EAEB237119DE00135E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B909EAC5237119DD00135E84 /* GroundGurusDay7 */;
+			targetProxy = B909EAEA237119DE00135E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B909EACF237119DD00135E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B909EAD0237119DD00135E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B909EAD4237119DD00135E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B909EAD5237119DD00135E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B909EAF0237119DE00135E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B909EAF1237119DE00135E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B909EAF3237119DE00135E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = GroundGurusDay7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.GroundGurusDay7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B909EAF4237119DE00135E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = GroundGurusDay7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.GroundGurusDay7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B909EAF6237119DE00135E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = GroundGurusDay7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.GroundGurusDay7Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundGurusDay7.app/GroundGurusDay7";
+			};
+			name = Debug;
+		};
+		B909EAF7237119DE00135E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = GroundGurusDay7Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.GroundGurusDay7Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundGurusDay7.app/GroundGurusDay7";
+			};
+			name = Release;
+		};
+		B909EAF9237119DE00135E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = GroundGurusDay7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.GroundGurusDay7UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GroundGurusDay7;
+			};
+			name = Debug;
+		};
+		B909EAFA237119DE00135E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85ZHA47WTJ;
+				INFOPLIST_FILE = GroundGurusDay7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.earthmaniebo.GroundGurusDay7UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GroundGurusDay7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B909EAC1237119DD00135E84 /* Build configuration list for PBXProject "GroundGurusDay7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B909EAF0237119DE00135E84 /* Debug */,
+				B909EAF1237119DE00135E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B909EAF2237119DE00135E84 /* Build configuration list for PBXNativeTarget "GroundGurusDay7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B909EAF3237119DE00135E84 /* Debug */,
+				B909EAF4237119DE00135E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B909EAF5237119DE00135E84 /* Build configuration list for PBXNativeTarget "GroundGurusDay7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B909EAF6237119DE00135E84 /* Debug */,
+				B909EAF7237119DE00135E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B909EAF8237119DE00135E84 /* Build configuration list for PBXNativeTarget "GroundGurusDay7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B909EAF9237119DE00135E84 /* Debug */,
+				B909EAFA237119DE00135E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B909EABE237119DD00135E84 /* Project object */;
+}

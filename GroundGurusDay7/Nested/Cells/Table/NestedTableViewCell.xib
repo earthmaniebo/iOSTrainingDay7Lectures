@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NestedTableCell" rowHeight="151" id="KNU-Ii-VMB" customClass="NestedTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="151"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KNU-Ii-VMB" id="oxh-Pf-dbl">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="150.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="bMu-Vw-5ZF">
+                        <rect key="frame" x="16" y="16" width="382" height="118.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="JRr-rv-azX">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bMu-Vw-5ZF" firstAttribute="leading" secondItem="oxh-Pf-dbl" secondAttribute="leading" constant="16" id="HIN-ew-Nvl"/>
+                    <constraint firstItem="bMu-Vw-5ZF" firstAttribute="top" secondItem="oxh-Pf-dbl" secondAttribute="top" constant="16" id="SfC-mh-gbQ"/>
+                    <constraint firstAttribute="trailing" secondItem="bMu-Vw-5ZF" secondAttribute="trailing" constant="16" id="ZQb-de-LFS"/>
+                    <constraint firstAttribute="bottom" secondItem="bMu-Vw-5ZF" secondAttribute="bottom" constant="16" id="e4y-94-4f1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nestCollectionView" destination="bMu-Vw-5ZF" id="dRs-yr-8e6"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="188.50446428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
